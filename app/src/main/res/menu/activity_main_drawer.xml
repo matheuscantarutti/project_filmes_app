@@ -9,12 +9,26 @@
             android:icon="@drawable/ic_menu_camera"
             android:title="@string/menu_home" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nac_login"
+            android:icon="@android:drawable/ic_menu_directions"
+            android:title="Login" />
+        <item
+            android:id="@+id/nav_filmes"
             android:icon="@drawable/ic_menu_gallery"
             android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_critica"
+            android:icon="@android:drawable/ic_lock_silent_mode_off"
+            android:title="Crítica"
+            android:visible="false" />
         <item
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@android:drawable/ic_input_delete"
+            android:title="Logout"
+            android:visible="false" />
     </group>
 </menu>
